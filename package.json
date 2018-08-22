@@ -1,0 +1,35 @@
+{
+  "name": "react-webpack4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmaadesile/react-webpack4.git"
+  },
+  "keywords": [],
+  "author": "Emmanuel Adesile <emma2adesile@gmail.com> (https://emmaadesile.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmaadesile/react-webpack4/issues"
+  },
+  "homepage": "https://github.com/emmaadesile/react-webpack4#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.17.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
